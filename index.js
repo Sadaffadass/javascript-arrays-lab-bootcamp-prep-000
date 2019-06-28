@@ -9,11 +9,11 @@ function destructivelyPrependKitten(name) {
   kittens.unshift(name);
   return kittens;
 }
-function destructivelyRemoveLastKitten(name) {
+function destructivelyRemoveLastKitten() {
   kittens.pop();
   return kittens;
 }
-function destrcutivelyRemoveFirstKitten(name) {
+function destrcutivelyRemoveFirstKitten() {
   kittens.shift();
   return kittens;
 }
